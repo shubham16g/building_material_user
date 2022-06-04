@@ -1,4 +1,4 @@
-import 'package:building_material_user/routes/routes.dart';
+import 'package:building_material_user/ui/compontents/utils.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
@@ -7,40 +7,48 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: Text('Home Page'),
-      ),
-      body: Center(
-        child: TextButton(child: Text('Product Page'), onPressed: (){
-          Navigator.pushNamed(context, Routes.productsPage);
-        },),
-      ),
-      floatingActionButton: FloatingActionButton(
-        child: Icon(Icons.add),
-        onPressed: (){
-
-        },
-      ),
+      body: Responsive.isMobile(context)
+          ? const _MainArea()
+          : Row(
+              children: const [
+                _SideMenu(),
+                Expanded(child: _MainArea()),
+              ],
+            ),
     );
   }
 }
 
+class _SideMenu extends StatelessWidget {
+  const _SideMenu({Key? key}) : super(key: key);
 
-class ProductsPage extends StatelessWidget {
-  const ProductsPage({Key? key}) : super(key: key);
+  @override
+  Widget build(BuildContext context) {
+    return Container(
+      width: Responsive.isTablet(context) ? 60 : 250,
+      color: Colors.greenAccent,
+    );
+  }
+}
+
+class _MainArea extends StatelessWidget {
+  const _MainArea({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Product Page'),
+        title: const Text('Home'),
       ),
-      body: Center(
-        child: TextButton(child: Text('Go Back'), onPressed: (){
-          Navigator.pop(context);
-        },),
+      body: const Center(
+        child: Text('Home Page'),
       ),
+      bottomNavigationBar: Responsive.isMobile(context)
+          ? Container(
+              color: Colors.greenAccent,
+              height: 60,
+            )
+          : null,
     );
   }
 }
-
