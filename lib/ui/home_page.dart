@@ -1,10 +1,12 @@
 import 'package:building_material_user/models/demo_entity.dart';
 import 'package:building_material_user/network/api_response.dart';
 import 'package:building_material_user/network/dio_connect.dart';
+import 'package:building_material_user/network/service/api_service.dart';
 import 'package:building_material_user/network/service/dev/DevApiService.dart';
 import 'package:building_material_user/network/service/prod/ProdApiService.dart';
 import 'package:building_material_user/ui/compontents/utils.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -41,7 +43,7 @@ class _MainArea extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final apiService = DevApiService(DioConnect());
+    final apiService = context.read<ApiService>();
     return Scaffold(
       appBar: AppBar(
         title: const Text('Home'),
