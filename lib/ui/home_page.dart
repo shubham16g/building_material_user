@@ -1,3 +1,8 @@
+import 'package:building_material_user/models/demo_entity.dart';
+import 'package:building_material_user/network/api_response.dart';
+import 'package:building_material_user/network/dio_connect.dart';
+import 'package:building_material_user/network/service/dev/DevApiService.dart';
+import 'package:building_material_user/network/service/prod/ProdApiService.dart';
 import 'package:building_material_user/ui/compontents/utils.dart';
 import 'package:flutter/material.dart';
 
@@ -36,13 +41,42 @@ class _MainArea extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final apiService = DevApiService(DioConnect());
     return Scaffold(
       appBar: AppBar(
         title: const Text('Home'),
       ),
-      body: const Center(
-        child: Text('Home Page'),
+      body: FutureBuilder<ApiResponse<DemoEntity>>(
+        future: apiService.getDemoList(),
+        builder: (context, snapshot) {
+          if (snapshot.hasData && snapshot.data != null && snapshot.data!.isSuccessful) {
+            final demoEntity = snapshot.data!.data!;
+            final data = demoEntity.data;
+
+            return ListView.builder(
+              itemCount: data.length,
+              itemBuilder: (context, index) {
+                final item = data[index];
+                return ListTile(
+                  title: Text(item.name ?? "NO NAME"),
+                  subtitle: Text(item.pantoneValue),
+                  onTap: () {
+
+                  },
+                );
+              },
+            );
+          } else if (snapshot.hasError) {
+            return Text(snapshot.error.toString());
+          } else if (snapshot.hasData){
+            final apiResponse = snapshot.data;
+            return Center(child: Text(apiResponse?.errorMessage ?? "Null Api Response"),);
+          } else {
+            return Center(child: const CircularProgressIndicator());
+          }
+        },
       ),
+
       bottomNavigationBar: Responsive.isMobile(context)
           ? Container(
               color: Colors.greenAccent,
