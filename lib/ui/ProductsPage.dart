@@ -8,10 +8,10 @@ class ProductsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Product Page'),
+        title: const Text('Product Page'),
       ),
       body: Center(
-        child: TextButton(child: Text('Go Back'), onPressed: (){
+        child: TextButton(child: const Text('Go Back'), onPressed: (){
           Navigator.pop(context);
         },),
       ),

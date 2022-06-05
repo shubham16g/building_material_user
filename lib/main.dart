@@ -3,7 +3,6 @@ import 'package:building_material_user/network/service/dev/DevApiService.dart';
 import 'package:building_material_user/network/service/prod/ProdApiService.dart';
 import 'package:building_material_user/routes/routes.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 import 'package:provider/single_child_widget.dart';
@@ -11,6 +10,7 @@ import 'package:provider/single_child_widget.dart';
 import 'network/dio_connect.dart';
 
 void main() {
+  // GestureBinding.instance.resamplingEnabled = true;
   runApp(MultiProvider(providers: providers, child: const MyApp()));
 }
 
@@ -20,6 +20,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Building Material App',
       onGenerateRoute: RouteGenerator.build,
       theme: ThemeData(

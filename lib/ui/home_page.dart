@@ -2,8 +2,10 @@ import 'package:building_material_user/models/demo_entity.dart';
 import 'package:building_material_user/network/api_response.dart';
 import 'package:building_material_user/network/service/api_service.dart';
 import 'package:building_material_user/ui/compontents/utils.dart';
+import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
+import 'package:web_smooth_scroll/web_smooth_scroll.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -30,7 +32,6 @@ class _SideMenu extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: Responsive.isTablet(context) ? 60 : 250,
-      color: Colors.greenAccent,
     );
   }
 }
@@ -43,8 +44,14 @@ class _MainArea extends StatelessWidget {
     final apiService = context.read<ApiService>();
     return Scaffold(
       appBar: AppBar(
+        surfaceTintColor: Colors.white,
         title: const Text('Home'),
       ),
+      floatingActionButton: FloatingActionButton(
+        child: const Icon(Icons.add),
+        onPressed: () {
+        ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Hello')));
+      },),
       body: FutureBuilder<ApiResponse<DemoEntity>>(
         future: apiService.getDemoList(),
         builder: (context, snapshot) {
@@ -52,18 +59,29 @@ class _MainArea extends StatelessWidget {
             final demoEntity = snapshot.data!.data!;
             final data = demoEntity.data;
 
-            return ListView.builder(
-              itemCount: data.length,
-              itemBuilder: (context, index) {
-                final item = data[index];
-                return ListTile(
-                  title: Text(item.name ?? "NO NAME"),
-                  subtitle: Text(item.pantoneValue),
-                  onTap: () {
+            final controller = ScrollController();
+            return ScrollConfiguration(
+              behavior: ScrollConfiguration.of(context).copyWith(
+                dragDevices: {
+                  PointerDeviceKind.touch,
+                  PointerDeviceKind.mouse,
+                }
+              ),
+              child: ListView.builder(
+                controller: controller,
+                physics: const BouncingScrollPhysics(),
+                itemCount: data.length,
+                itemBuilder: (context, index) {
+                  final item = data[index];
+                  return ListTile(
+                    title: Text(item.name ?? "NO NAME"),
+                    subtitle: Text(item.pantoneValue),
+                    onTap: () {
 
-                  },
-                );
-              },
+                    },
+                  );
+                },
+              ),
             );
           } else if (snapshot.hasError) {
             return Text(snapshot.error.toString());
