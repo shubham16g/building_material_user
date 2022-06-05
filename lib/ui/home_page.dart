@@ -1,11 +1,16 @@
+import 'package:building_material_user/change_notifiers/bottom_nav_change_notifier.dart';
 import 'package:building_material_user/models/demo_entity.dart';
 import 'package:building_material_user/network/api_response.dart';
 import 'package:building_material_user/network/service/api_service.dart';
+import 'package:building_material_user/routes/routes.dart';
+import 'package:building_material_user/ui/compontents/bottom_nav.dart';
 import 'package:building_material_user/ui/compontents/utils.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
+
+
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -84,18 +89,27 @@ class HomePage extends StatelessWidget {
               ),
             ],
           )),
-      body: Container()
+      body: _FragmentArea(),
+      bottomNavigationBar: BottomNav(onChange: (int index) {
+        context.read<BottomNavViewModel>().currentIndex = index;
+      }),
     );
   }
 }
 
-class _SideMenu extends StatelessWidget {
-  const _SideMenu({Key? key}) : super(key: key);
+
+
+class _FragmentArea extends StatelessWidget {
+  const _FragmentArea({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
+    int currentIndex = context.watch<BottomNavViewModel>().currentIndex;
     return Container(
-      width: Responsive.isTablet(context) ? 60 : 250,
+      child: Center(child: TextButton(onPressed: () {
+        Navigator.pushNamed(context, Routes.productsPage);
+      },
+      child: Text('FragmentArea $currentIndex'))),
     );
   }
 }

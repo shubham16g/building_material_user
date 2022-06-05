@@ -1,6 +1,8 @@
 
+import 'package:building_material_user/change_notifiers/bottom_nav_change_notifier.dart';
 import 'package:building_material_user/ui/home_page.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import '../ui/ProductsPage.dart';
 
@@ -14,9 +16,14 @@ class RouteGenerator {
   static Widget _getPage(String? name, Object? arguments) {
     switch (name) {
       case Routes.homePage:
-        return const HomePage();
+        return ChangeNotifierProvider(
+            create: (context) => BottomNavViewModel(),
+            child: const HomePage(),
+        );
       case Routes.productsPage:
-        return const ProductsPage();
+        return MultiProvider(providers: [
+          ChangeNotifierProvider(create: (context)=>CounterViewModel()),
+        ], child: const ProductsPage());
       default:
         return const HomePage();
     }
