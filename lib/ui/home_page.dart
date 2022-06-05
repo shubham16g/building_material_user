@@ -4,8 +4,8 @@ import 'package:building_material_user/network/service/api_service.dart';
 import 'package:building_material_user/ui/compontents/utils.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import 'package:web_smooth_scroll/web_smooth_scroll.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -13,14 +13,78 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Responsive.isMobile(context)
-          ? const _MainArea()
-          : Row(
-              children: const [
-                _SideMenu(),
-                Expanded(child: _MainArea()),
-              ],
-            ),
+      appBar: PreferredSize(
+          preferredSize: Size.fromHeight(55),
+          child: Stack(
+            children: [
+              AppBar(
+                elevation: 0,
+                backgroundColor: Colors.transparent,
+                title: Text(
+                  'MartX',
+                  style: GoogleFonts.poppins(
+                    fontSize: 20,
+                    fontWeight: FontWeight.w600,
+                    color: Colors.black,
+                  ),
+                ),
+                bottom: PreferredSize(
+                      preferredSize: const Size.fromHeight(1),
+                      child: Container(
+                        color: Theme.of(context).colorScheme.surfaceVariant,
+                        height: 1,
+                      )),
+              ),
+              SafeArea(
+                child: Container(
+                  padding: EdgeInsets.symmetric(horizontal: 8),
+                  height: 55,
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.end,
+                    crossAxisAlignment: CrossAxisAlignment.center,
+                    children: [
+                      if(!Responsive.isMobile(context))Container(
+                        width: 280,
+                        height: 40,
+                        decoration: BoxDecoration(
+                          color: Theme.of(context).colorScheme.surfaceVariant,
+                          borderRadius: BorderRadius.circular(10),
+                        ),
+                        child: TextField(
+                          decoration: InputDecoration(
+                            hintText: 'Search',
+                            hintStyle: GoogleFonts.poppins(
+                              fontSize: 14,
+                              fontWeight: FontWeight.w600,
+                              color: Colors.black,
+                            ),
+                            border: InputBorder.none,
+                            prefixIcon: Icon(
+                              Icons.search,
+                              color: Colors.black,
+                            ),
+                          ),
+                        ),
+                      ),
+                      if (Responsive.isMobile(context)) IconButton(
+                        icon: const Icon(
+                          Icons.search,
+                        ),
+                        onPressed: () {},
+                      ),IconButton(
+                        icon: const Icon(
+                          Icons.shopping_cart,
+                        ),
+                        onPressed: () {},
+                      ),
+                      if (!Responsive.isMobile(context)) TextButton(onPressed: () {}, child: Text('Login')),
+                    ],
+                  ),
+                ),
+              ),
+            ],
+          )),
+      body: Container()
     );
   }
 }
@@ -43,10 +107,6 @@ class _MainArea extends StatelessWidget {
   Widget build(BuildContext context) {
     final apiService = context.read<ApiService>();
     return Scaffold(
-      appBar: AppBar(
-        surfaceTintColor: Colors.white,
-        title: const Text('Home'),
-      ),
       floatingActionButton: FloatingActionButton(
         child: const Icon(Icons.add),
         onPressed: () {

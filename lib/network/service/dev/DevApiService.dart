@@ -17,7 +17,7 @@ class DevApiService extends ApiService {
   @override
   Future<ApiResponse<DemoEntity>> getDemoList() async {
     Future.delayed(const Duration(seconds: 1));
-    String data = await rootBundle.loadString("test/demo.json");
+    String data = await rootBundle.loadString("assets/test/demo.json");
     return ApiResponse(statusCode: 200, data: DemoEntity.fromJson(json.decode(data)));
 
   }

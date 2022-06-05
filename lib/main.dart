@@ -11,6 +11,7 @@ import 'network/dio_connect.dart';
 
 void main() {
   // GestureBinding.instance.resamplingEnabled = true;
+  // GoogleFonts.config.allowRuntimeFetching = false;
   runApp(MultiProvider(providers: providers, child: const MyApp()));
 }
 
@@ -27,7 +28,8 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         textTheme: GoogleFonts.montserratTextTheme(Theme.of(context).textTheme),
         splashFactory: InkRipple.splashFactory,
-        colorSchemeSeed: Colors.blue,
+        colorSchemeSeed: Colors.green,
+        brightness: Brightness.light,
         appBarTheme: const AppBarTheme(elevation: 0),
       ),
       initialRoute: "/",
