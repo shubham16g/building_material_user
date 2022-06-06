@@ -32,21 +32,16 @@ class HomePage extends StatelessWidget {
           if (!Responsive.isMobile(context))
             Container(
               width: 280,
-              height: 40,
+              height: 42,
               decoration: BoxDecoration(
-                color: Theme.of(context).colorScheme.surfaceVariant,
+                color: Theme.of(context).colorScheme.secondaryContainer,
                 borderRadius: BorderRadius.circular(10),
               ),
-              child: TextField(
+              child: const TextField(
                 decoration: InputDecoration(
-                  hintText: 'Search',
-                  hintStyle: GoogleFonts.poppins(
-                    fontSize: 14,
-                    fontWeight: FontWeight.w600,
-                    color: Colors.black,
-                  ),
+                  hintText: 'Search...',
                   border: InputBorder.none,
-                  prefixIcon: const Icon(
+                  prefixIcon: Icon(
                     Icons.search,
                     color: Colors.black,
                   ),
@@ -54,7 +49,7 @@ class HomePage extends StatelessWidget {
               ),
             ),
           if (!Responsive.isMobile(context))
-            SizedBox(width: 12,),
+            SizedBox(width: 7,),
           if (Responsive.isMobile(context))
             IconButton(
               splashRadius: 20,
@@ -66,6 +61,13 @@ class HomePage extends StatelessWidget {
           IconButton(
             splashRadius: 20,
             icon: const Icon(
+              Icons.favorite,
+            ),
+            onPressed: () {},
+          ),
+          IconButton(
+            splashRadius: 20,
+            icon: const Icon(
               Icons.shopping_cart,
             ),
             onPressed: () {},
@@ -74,7 +76,7 @@ class HomePage extends StatelessWidget {
             TextButton(onPressed: () {}, child: const Padding(
               padding: EdgeInsets.symmetric(horizontal: 8.0),
               child: Text('Login'),
-            )),
+            ), style: ButtonStyle(backgroundColor: MaterialStateProperty.all(Theme.of(context).colorScheme.secondaryContainer)),),
         ],
       ),
       body: Consumer<BottomNavViewModel>(

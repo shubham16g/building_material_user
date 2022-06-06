@@ -30,7 +30,7 @@ class MyApp extends StatelessWidget {
         useMaterial3: true,
         textTheme: GoogleFonts.montserratTextTheme(Theme.of(context).textTheme),
         splashFactory: InkRipple.splashFactory,
-        colorSchemeSeed: Colors.green,
+        colorSchemeSeed: Colors.blue,
         brightness: Brightness.light,
         appBarTheme: const AppBarTheme(elevation: 0),
       ),
