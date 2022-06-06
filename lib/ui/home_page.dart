@@ -4,6 +4,7 @@ import 'package:building_material_user/network/api_response.dart';
 import 'package:building_material_user/network/service/api_service.dart';
 import 'package:building_material_user/routes/routes.dart';
 import 'package:building_material_user/ui/components/bottom_nav.dart';
+import 'package:building_material_user/ui/components/m3_appbar.dart';
 import 'package:building_material_user/ui/components/utils.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
@@ -18,78 +19,77 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: PreferredSize(
-          preferredSize: Size.fromHeight(55),
-          child: Stack(
-            children: [
-              AppBar(
-                elevation: 0,
-                backgroundColor: Colors.transparent,
-                title: Text(
-                  'MartX',
-                  style: GoogleFonts.poppins(
-                    fontSize: 20,
+      appBar: M3AppBar(
+        title: Text(
+          'MartX',
+          style: GoogleFonts.poppins(
+            fontSize: 20,
+            fontWeight: FontWeight.w600,
+            color: Colors.black,
+          ),
+        ),
+        actions: [
+          if (!Responsive.isMobile(context))
+            Container(
+              width: 280,
+              height: 40,
+              decoration: BoxDecoration(
+                color: Theme.of(context).colorScheme.surfaceVariant,
+                borderRadius: BorderRadius.circular(10),
+              ),
+              child: TextField(
+                decoration: InputDecoration(
+                  hintText: 'Search',
+                  hintStyle: GoogleFonts.poppins(
+                    fontSize: 14,
                     fontWeight: FontWeight.w600,
                     color: Colors.black,
                   ),
-                ),
-                bottom: PreferredSize(
-                      preferredSize: const Size.fromHeight(1),
-                      child: Container(
-                        color: Theme.of(context).colorScheme.surfaceVariant,
-                        height: 1,
-                      )),
-              ),
-              SafeArea(
-                child: Container(
-                  padding: EdgeInsets.symmetric(horizontal: 8),
-                  height: 55,
-                  child: Row(
-                    mainAxisAlignment: MainAxisAlignment.end,
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: [
-                      if(!Responsive.isMobile(context))Container(
-                        width: 280,
-                        height: 40,
-                        decoration: BoxDecoration(
-                          color: Theme.of(context).colorScheme.surfaceVariant,
-                          borderRadius: BorderRadius.circular(10),
-                        ),
-                        child: TextField(
-                          decoration: InputDecoration(
-                            hintText: 'Search',
-                            hintStyle: GoogleFonts.poppins(
-                              fontSize: 14,
-                              fontWeight: FontWeight.w600,
-                              color: Colors.black,
-                            ),
-                            border: InputBorder.none,
-                            prefixIcon: Icon(
-                              Icons.search,
-                              color: Colors.black,
-                            ),
-                          ),
-                        ),
-                      ),
-                      if (Responsive.isMobile(context)) IconButton(
-                        icon: const Icon(
-                          Icons.search,
-                        ),
-                        onPressed: () {},
-                      ),IconButton(
-                        icon: const Icon(
-                          Icons.shopping_cart,
-                        ),
-                        onPressed: () {},
-                      ),
-                      if (!Responsive.isMobile(context)) TextButton(onPressed: () {}, child: Text('Login')),
-                    ],
+                  border: InputBorder.none,
+                  prefixIcon: const Icon(
+                    Icons.search,
+                    color: Colors.black,
                   ),
                 ),
               ),
-            ],
-          )),
-      body: _FragmentArea(),
+            ),
+          if (!Responsive.isMobile(context))
+            SizedBox(width: 12,),
+          if (Responsive.isMobile(context))
+            IconButton(
+              splashRadius: 20,
+              icon: const Icon(
+                Icons.search,
+              ),
+              onPressed: () {},
+            ),
+          IconButton(
+            splashRadius: 20,
+            icon: const Icon(
+              Icons.shopping_cart,
+            ),
+            onPressed: () {},
+          ),
+          if (!Responsive.isMobile(context))
+            TextButton(onPressed: () {}, child: const Padding(
+              padding: EdgeInsets.symmetric(horizontal: 8.0),
+              child: Text('Login'),
+            )),
+        ],
+      ),
+      body: Consumer<BottomNavViewModel>(
+        builder: (context, model, child) => model.currentIndex == 0
+            ? _MainArea()
+            : Center(
+                child: IconButton(
+                splashRadius: 20,
+                icon: Icon(Icons.abc),
+                onPressed: () {
+                  Navigator.pushNamed(context, Routes.productsPage);
+                },
+                // child: Text('FragmentArea ${model.currentIndex}'),
+              )),
+      ),
       bottomNavigationBar: BottomNav(onChange: (int index) {
         context.read<BottomNavViewModel>().currentIndex = index;
       }),
@@ -97,19 +97,18 @@ class HomePage extends StatelessWidget {
   }
 }
 
-
-
-class _FragmentArea extends StatelessWidget {
-  const _FragmentArea({Key? key}) : super(key: key);
+class CounterApp extends StatelessWidget {
+  const CounterApp({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
-    int currentIndex = context.watch<BottomNavViewModel>().currentIndex;
-    return Container(
-      child: Center(child: TextButton(onPressed: () {
-        Navigator.pushNamed(context, Routes.productsPage);
-      },
-      child: Text('FragmentArea $currentIndex'))),
+    var counter = 0;
+    return Scaffold(
+      body: Center(
+          child: Builder(builder: (context) => Text(counter.toString()))),
+      floatingActionButton: FloatingActionButton(onPressed: () {
+        counter++;
+      }),
     );
   }
 }
