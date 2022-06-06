@@ -38,6 +38,7 @@ dependencies:
   provider: ^6.0.3
   dio: ^4.0.6
   json_annotation: ^4.5.0
+  carousel_slider: ^4.1.1
 
 dev_dependencies:
   flutter_test:
@@ -66,7 +67,8 @@ flutter:
   # To add assets to your application, add an assets section, like this:
   assets:
     - assets/test/
-    - google_fonts/
+
+#    - google_fonts/
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

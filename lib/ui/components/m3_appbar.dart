@@ -45,7 +45,7 @@ class M3AppBar extends StatelessWidget implements PreferredSizeWidget {
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.end,
                 crossAxisAlignment: CrossAxisAlignment.center,
-                children: actions ?? [],
+                children: actions,
               ),
             ),
           ),

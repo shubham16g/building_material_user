@@ -11,7 +11,7 @@ import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
 
-
+import 'components/slide_show.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -80,37 +80,29 @@ class HomePage extends StatelessWidget {
         ],
       ),
       body: Consumer<BottomNavViewModel>(
-        builder: (context, model, child) => model.currentIndex == 0
+        builder: (context, model, child) => model.currentIndex == 1
             ? _MainArea()
-            : Center(
-                child: IconButton(
-                splashRadius: 20,
-                icon: Icon(Icons.abc),
-                onPressed: () {
-                  Navigator.pushNamed(context, Routes.productsPage);
-                },
-                // child: Text('FragmentArea ${model.currentIndex}'),
-              )),
+            : model.currentIndex == 0
+                ? SlideShow(
+                    aspectRatio: Responsive.isDesktop(context) ? 4 : 3,
+                    items: ['WOW', 'Slide2', 'Slide 3']
+                        .map((e) =>
+                            Container(color: Colors.blue, child: Center(child: Text(e))))
+                        .toList(),
+                  )
+                : Center(
+                    child: IconButton(
+                    splashRadius: 20,
+                    icon: Icon(Icons.abc),
+                    onPressed: () {
+                      Navigator.pushNamed(context, Routes.productsPage);
+                    },
+                    // child: Text('FragmentArea ${model.currentIndex}'),
+                  )),
       ),
-      bottomNavigationBar: BottomNav(onChange: (int index) {
+      bottomNavigationBar: Responsive.isMobile(context) ? BottomNav(onChange: (int index) {
         context.read<BottomNavViewModel>().currentIndex = index;
-      }),
-    );
-  }
-}
-
-class CounterApp extends StatelessWidget {
-  const CounterApp({Key? key}) : super(key: key);
-
-  @override
-  Widget build(BuildContext context) {
-    var counter = 0;
-    return Scaffold(
-      body: Center(
-          child: Builder(builder: (context) => Text(counter.toString()))),
-      floatingActionButton: FloatingActionButton(onPressed: () {
-        counter++;
-      }),
+      }) : null,
     );
   }
 }
