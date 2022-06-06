@@ -1,6 +1,6 @@
 
 import 'package:building_material_user/change_notifiers/bottom_nav_change_notifier.dart';
-import 'package:building_material_user/ui/home_page.dart';
+import 'package:building_material_user/ui/main_page.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 

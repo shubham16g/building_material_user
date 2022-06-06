@@ -2,16 +2,14 @@ import 'package:building_material_user/change_notifiers/bottom_nav_change_notifi
 import 'package:building_material_user/models/demo_entity.dart';
 import 'package:building_material_user/network/api_response.dart';
 import 'package:building_material_user/network/service/api_service.dart';
-import 'package:building_material_user/routes/routes.dart';
 import 'package:building_material_user/ui/components/bottom_nav.dart';
 import 'package:building_material_user/ui/components/m3_appbar.dart';
 import 'package:building_material_user/ui/components/utils.dart';
+import 'package:building_material_user/ui/fragments/home_fragment.dart';
 import 'package:flutter/gestures.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-
-import 'components/slide_show.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -80,25 +78,18 @@ class HomePage extends StatelessWidget {
         ],
       ),
       body: Consumer<BottomNavViewModel>(
-        builder: (context, model, child) => model.currentIndex == 1
-            ? _MainArea()
-            : model.currentIndex == 0
-                ? SlideShow(
-                    aspectRatio: Responsive.isDesktop(context) ? 4 : 3,
-                    items: ['WOW', 'Slide2', 'Slide 3']
-                        .map((e) =>
-                            Container(color: Colors.blue, child: Center(child: Text(e))))
-                        .toList(),
-                  )
-                : Center(
-                    child: IconButton(
-                    splashRadius: 20,
-                    icon: Icon(Icons.abc),
-                    onPressed: () {
-                      Navigator.pushNamed(context, Routes.productsPage);
-                    },
-                    // child: Text('FragmentArea ${model.currentIndex}'),
-                  )),
+        builder: (context, model, child) {
+          switch (model.currentIndex) {
+            case 0:
+              return HomeFragment();
+            case 1:
+              return _MainArea();
+            default:
+              return Center(
+                child: Text('Not Found ${model.currentIndex}'),
+              );
+          }
+        },
       ),
       bottomNavigationBar: Responsive.isMobile(context) ? BottomNav(onChange: (int index) {
         context.read<BottomNavViewModel>().currentIndex = index;
