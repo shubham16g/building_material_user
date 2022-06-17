@@ -4,6 +4,8 @@ import 'package:building_material_user/ui/components/slide_show.dart';
 import 'package:building_material_user/ui/components/utils.dart';
 import 'package:flutter/material.dart';
 
+import '../../routes/routes.dart';
+
 class HomeFragment extends StatelessWidget {
   const HomeFragment({Key? key}) : super(key: key);
 
@@ -22,6 +24,13 @@ class HomeFragment extends StatelessWidget {
                 child: Text(e, style: TextStyle(fontSize: 30),),
               ),
             )).toList()),
+        SizedBox(height: 20),
+
+        Center(
+          child: TextButton(onPressed: (){
+            Navigator.pushNamed(context, Routes.productsPage);
+          }, child: Text('Products'),),
+        ),
       ],
     );
   }

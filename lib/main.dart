@@ -1,9 +1,6 @@
 import 'package:building_material_user/network/service/api_service.dart';
 import 'package:building_material_user/network/service/dev/DevApiService.dart';
-import 'package:building_material_user/network/service/prod/ProdApiService.dart';
 import 'package:building_material_user/routes/routes.dart';
-import 'package:building_material_user/ui/ProductsPage.dart';
-import 'package:building_material_user/ui/main_page.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
