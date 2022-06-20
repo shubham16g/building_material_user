@@ -105,11 +105,6 @@ class _MainArea extends StatelessWidget {
   Widget build(BuildContext context) {
     final apiService = context.read<ApiService>();
     return Scaffold(
-      floatingActionButton: FloatingActionButton(
-        child: const Icon(Icons.add),
-        onPressed: () {
-        ScaffoldMessenger.of(context).showSnackBar(const SnackBar(content: Text('Hello')));
-      },),
       body: FutureBuilder<ApiResponse<DemoEntity>>(
         future: apiService.getDemoList(),
         builder: (context, snapshot) {

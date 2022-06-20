@@ -1,0 +1,1003 @@
+[
+    {
+        "category_id": 1,
+        "name": "Civil Supplies",
+        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+        "description": null,
+        "category_group": null,
+        "children": [
+            {
+                "category_id": 2,
+                "name": "Cement",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": [
+                    {
+                        "category_id": 3,
+                        "name": "OPC cement",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 4,
+                        "name": "PPC Cement",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    }
+                ]
+            },
+            {
+                "category_id": 5,
+                "name": "TMT Steel Bars",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": [
+                    {
+                        "category_id": 6,
+                        "name": "Fe 550 TMT",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 7,
+                        "name": "Fe 500 TMT",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    }
+                ]
+            },
+            {
+                "category_id": 8,
+                "name": "AAC Blocks & Bricks",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": [
+                    {
+                        "category_id": 9,
+                        "name": "Bricks",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 10,
+                        "name": "AAC Blocks",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    }
+                ]
+            },
+            {
+                "category_id": 11,
+                "name": "Gravels & Aggregates",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": [
+                    {
+                        "category_id": 12,
+                        "name": "Aggregates",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    }
+                ]
+            },
+            {
+                "category_id": 13,
+                "name": "Sand",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": [
+                    {
+                        "category_id": 14,
+                        "name": "River Sand",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 15,
+                        "name": "Robo Sand",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    }
+                ]
+            },
+            {
+                "category_id": 16,
+                "name": "Granite & Marbles",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": [
+                    {
+                        "category_id": 17,
+                        "name": "Granite",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 18,
+                        "name": "Marble",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    }
+                ]
+            },
+            {
+                "category_id": 19,
+                "name": "Ceiling Products",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": [
+                    {
+                        "category_id": 20,
+                        "name": "Pop",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 21,
+                        "name": "Gypsm",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 22,
+                        "name": "Cement Board",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 23,
+                        "name": "Vinyl",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 24,
+                        "name": "Aluminium Channels",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 25,
+                        "name": "Fittings",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    }
+                ]
+            },
+            {
+                "category_id": 26,
+                "name": "Ready Made Concrete",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 27,
+                "name": "Tiles",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": [
+                    {
+                        "category_id": 28,
+                        "name": "Floor Tiles",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 29,
+                        "name": "Wall Tiles",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 30,
+                        "name": "Vitrified Tiles",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 31,
+                        "name": "Parking Tiles",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category_id": 32,
+        "name": "Electricals",
+        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+        "description": null,
+        "category_group": null,
+        "children": [
+            {
+                "category_id": 33,
+                "name": "Switches & Accessories",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": [
+                    {
+                        "category_id": 34,
+                        "name": "Modular Switches",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 35,
+                        "name": "Sockets",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 36,
+                        "name": "Fan Regulators",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 37,
+                        "name": "Modular Frames",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 38,
+                        "name": "Electrical Accessories",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 39,
+                        "name": "Video Door System",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    }
+                ]
+            },
+            {
+                "category_id": 40,
+                "name": "Conduit Pipes & Fittings",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 41,
+                "name": "Metal Boxes",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 42,
+                "name": "Wires & Cables",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 43,
+                "name": "Fans",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": [
+                    {
+                        "category_id": 44,
+                        "name": "Ceiling Fans",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 45,
+                        "name": "Table Fans",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 46,
+                        "name": "Exhaust Fans",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    }
+                ]
+            },
+            {
+                "category_id": 47,
+                "name": "Appliances",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": [
+                    {
+                        "category_id": 48,
+                        "name": "Water purifier",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 49,
+                        "name": "TV",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 50,
+                        "name": "AC",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 51,
+                        "name": "Geyser",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 52,
+                        "name": "Refrigerators & Water Dispensers",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    }
+                ]
+            },
+            {
+                "category_id": 53,
+                "name": "MCB & RCCB",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 54,
+                "name": "Distribution Boards",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 55,
+                "name": "Lights",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": [
+                    {
+                        "category_id": 56,
+                        "name": "LED Bulbs",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 57,
+                        "name": "LED Ceiling Lights",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 58,
+                        "name": "LED Tube Lights",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 59,
+                        "name": "LED Rope Lights",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 60,
+                        "name": "LED Spot Lights",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 61,
+                        "name": "LED Surface Lights",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 62,
+                        "name": "LED Down Lights",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    }
+                ]
+            },
+            {
+                "category_id": 63,
+                "name": "Show Lights",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": [
+                    {
+                        "category_id": 64,
+                        "name": "LED Bollard Lights",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 65,
+                        "name": "LED Spike Lights",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 66,
+                        "name": "LED Gate Lights",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "category_id": 67,
+        "name": "Plumbing",
+        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+        "description": null,
+        "category_group": null,
+        "children": [
+            {
+                "category_id": 68,
+                "name": "Pipes",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": [
+                    {
+                        "category_id": 69,
+                        "name": "CPVC Pipes",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 70,
+                        "name": "SWR Pipes",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 71,
+                        "name": "UPVC Pipes",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    }
+                ]
+            },
+            {
+                "category_id": 72,
+                "name": "Fittings",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": [
+                    {
+                        "category_id": 73,
+                        "name": "CPVC Fittings",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 74,
+                        "name": "SWR Fittings",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 75,
+                        "name": "UPVC Fittings",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    }
+                ]
+            },
+            {
+                "category_id": 76,
+                "name": "Fixing Solvents",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 77,
+                "name": "Water Tanks",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 78,
+                "name": "Taps & Accessories",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 79,
+                "name": "G I Pipes",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 80,
+                "name": "G I Fittings",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 81,
+                "name": "Water Pump Motors",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            }
+        ]
+    },
+    {
+        "category_id": 82,
+        "name": "Sanitary",
+        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+        "description": null,
+        "category_group": null,
+        "children": [
+            {
+                "category_id": 83,
+                "name": "Bathroom Floor Tiles",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 84,
+                "name": "Bathroom Wall Tiles",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 85,
+                "name": "Wash Basins",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 86,
+                "name": "Commode",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 87,
+                "name": "Bath Accessories",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 88,
+                "name": "Flush Tanks",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 89,
+                "name": "Bath Tub & Showers",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": [
+                    {
+                        "category_id": 90,
+                        "name": "Steam Shower Room",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 91,
+                        "name": "Head Showers",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 92,
+                        "name": "Bath Tubs",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    }
+                ]
+            },
+            {
+                "category_id": 93,
+                "name": "Urinals",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            }
+        ]
+    },
+    {
+        "category_id": 94,
+        "name": "Paints & Finishes",
+        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+        "description": null,
+        "category_group": null,
+        "children": [
+            {
+                "category_id": 95,
+                "name": "Wall Putty",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 96,
+                "name": "Primer",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 97,
+                "name": "Emulsion",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 98,
+                "name": "Mixing Solvents",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 99,
+                "name": "Rollers & Brushes",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 100,
+                "name": "Accessories",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 101,
+                "name": "Paint Sprayers",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            }
+        ]
+    },
+    {
+        "category_id": 102,
+        "name": "Hardware & Glass",
+        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+        "description": null,
+        "category_group": null,
+        "children": [
+            {
+                "category_id": 103,
+                "name": "Locks",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 104,
+                "name": "PVC Doors",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 105,
+                "name": "UPVC Doors",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 106,
+                "name": "Modular Kitchen",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": [
+                    {
+                        "category_id": 107,
+                        "name": "Kitchen Sink",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 108,
+                        "name": "Chimneys",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    }
+                ]
+            },
+            {
+                "category_id": 109,
+                "name": "Wardrobe Accessories",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 110,
+                "name": "Glass & Fittings",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 111,
+                "name": "Steel Railings",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 112,
+                "name": "Aluminium Partitions",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": []
+            },
+            {
+                "category_id": 113,
+                "name": "Ply Woods & Laminates",
+                "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                "description": null,
+                "category_group": null,
+                "children": [
+                    {
+                        "category_id": 114,
+                        "name": "Ply Wood",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    },
+                    {
+                        "category_id": 115,
+                        "name": "Laminates",
+                        "icon": "https:\/\/user-images.githubusercontent.com\/8686739\/42212959-20575b2a-7eea-11e8-80d9-23d37e2e5ebd.png",
+                        "banner": "https:\/\/www.dufrenesguideservice.com\/wp-content\/uploads\/2016\/09\/404-banner.jpg",
+                        "description": null,
+                        "category_group": null
+                    }
+                ]
+            }
+        ]
+    }
+]
